@@ -4,20 +4,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Yohan Muzé - Web Developer Front-end</title>
+    <link rel="stylesheet" href="./src/assets/css/style.css">
+    <script src="src/index.js" defer></script>
 </head>
 
-<body>
-    <header>
-        <nav>
-
+<body id="accueil">
+    <header class="header">
+        <div class="header_logo">
+            <a href="#accueil"><img src="./public/logo.png"></a>
+        </div>
+        <nav class="nav">
+            <ul class="nav_ul">
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="./src/assets/Yohan Muzé - CV.pdf" target="_blank">Mon CV</a></li>
+            </ul>
         </nav>
     </header>
+    <main class="hero">
+        <div class="hero_layout">
+            <img src="src/assets/images/hero-content.png">
+            <div class="hero_content">
+                <h1>Développeur Web Front-end passionné de programmation qui s'intéresse particulièrement au Green IT et
+                    à l'accéssibilité.</h1>
+            </div>
+        </div>
+        <div class="hero_pic">
+            <img src="src/assets/images/developer.png">
+            <figcaption>(presque) moi</figcaption>
+            <div class="btn-icons">
+                <a href="https://www.linkedin.com/in/yohan-m-7521442a1" target="_blank"><img
+                        src="public/LinkedIn_Logo.svg.png"></a>
+            </div>
+            <div class="hero_content_links" id="skills">
+                <div class="btn-icons">
+                    <a href="https://github.com/YohanMuze" target="_blank"><img src="public/github.png"></a>
+                </div>
+                <div class="btn-icons">
+                    <a href="mailto:yohan.m.dev@gmail.com" target="_blank"><img src="public/gmail.png"></a>
+                </div>
+            </div>
 
-    <main>
-
+        </div>
     </main>
+    <aside class="skills_wrapper">
+        <article class="skills">
+            <h2>Mes compétences</h2>
+            <div class="skills_box">
+                <div class="skills_first">
+                    <img src="public/html.png">
+                    <img src="public/css.png">
+                    <img src="public/js.png">
+                    <img src="public/react.png">
+                </div>
+                <div class="skills_collapse" id="projets">
+                </div>
+            </div>
+        </article>
+    </aside>
+    <aside>
+        <article class="gallery">
+            <h2>Certains de mes projets</h2>
+            <dialog id="modal-article" class="modal">
+                <div class="modal-wrapper"></div>
+            </dialog>
+            <div class="gallery_box">
 
+            </div>
+        </article>
+    </aside>
+
+    <footer class="footer">
+        <div class="footer_links">
+            <div class="btn-icons">
+                <a href="https://www.linkedin.com/in/yohan-m-7521442a1" target="_blank"><img
+                        src="public/LinkedIn_Logo.svg.png"></a>
+            </div>
+            <div class="btn-icons">
+                <a href="https://github.com/YohanMuze" target="_blank"><img src="public/github.png"></a>
+            </div>
+            <div class="btn-icons">
+                <a href="mailto:yohan.m.dev@gmail.com" target="_blank"><img src="public/gmail.png"></a>
+            </div>
+        </div>
+        <div class="footer_arrow-up">
+            <a href="#accueil"><img src="/public/icons-double-up.png"></a>
+        </div>
+    </footer>
 </body>
 
 </html>
