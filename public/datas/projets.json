@@ -2,7 +2,7 @@
     {
         "id": "1",
         "title": "Kasa",
-        "cover": "../../src/assets/images/kasa.png",
+        "cover": "./src/assets/images/kasa.png",
         "mission": "Développer l'interface d'un site de recherche d'hébergments et d'activités par ville en s'appuyant sur les maquettes du designer.",
         "tags": [
             "./public/react.png",
@@ -16,7 +16,7 @@
     {
         "id": "2",
         "title": "Portfolio - Sophie Bluel",
-        "cover": "../../src/assets/images/sophiebluel.png",
+        "cover": "./src/assets/images/sophiebluel.png",
         "mission": "Développer l'interface d'un site de recherche d'hébergments et d'activités par ville en s'appuyant sur les maquettes du designer.",
         "tags": [
             "./public/js.png",
@@ -30,7 +30,7 @@
     {
         "id": "3",
         "title": "Argent Bank",
-        "cover": "../../src/assets/images/argentbank.png",
+        "cover": "./src/assets/images/argentbank.png",
         "mission": "Développer l'interface d'un site de recherche d'hébergments et d'activités par ville en s'appuyant sur les maquettes du designer.",
         "tags": [
             "./public/react.png",
@@ -44,7 +44,7 @@
     {
         "id": "4",
         "title": "Ohmyfood",
-        "cover": "../../src/assets/images/ohmyfood.png",
+        "cover": "./src/assets/images/ohmyfood.png",
         "mission": "Développer l'interface d'un site de recherche d'hébergments et d'activités par ville en s'appuyant sur les maquettes du designer.",
         "tags": [
             "./public/html.png",
@@ -57,7 +57,7 @@
     {
         "id": "5",
         "title": "Booki",
-        "cover": "../../src/assets/images/booki.png",
+        "cover": "./src/assets/images/booki.png",
         "mission": "Développer l'interface d'un site de recherche d'hébergments et d'activités par ville en s'appuyant sur les maquettes du designer.",
         "tags": [
             "./public/html.png",
