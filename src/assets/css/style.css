@@ -414,7 +414,7 @@ h1, .hero_content p {
   .header_logo {
     height: 50%;
   }
-  .nav_ul li {
+  .nav-links {
     padding: 1.5rem;
   }
   .hero {
@@ -452,7 +452,7 @@ h1, .hero_content p {
   .nav_ul {
     gap: 0.5rem;
   }
-  .nav_ul li {
+  .nav-links{
     padding: 1rem;
   }
   .hero_layout {
@@ -490,6 +490,9 @@ h1, .hero_content p {
 }
 
 @media (max-width: 451px) {
+  .nav-links {
+    padding: 1rem 0.5rem;
+  }
   .skills {
     border-radius: 0;
     height: fit-content;
