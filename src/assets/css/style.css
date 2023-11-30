@@ -110,8 +110,12 @@ img {
   top: 30%;
 }
 
-h1 {
+h1, .hero_content p {
   text-align: center;
+}
+
+.hero_content p {
+  margin-top: 1.5rem;
 }
 
 .hero_pic {

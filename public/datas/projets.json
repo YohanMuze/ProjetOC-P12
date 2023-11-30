@@ -3,7 +3,7 @@
         "id": "1",
         "title": "Kasa",
         "cover": "./src/assets/images/kasa.png",
-        "mission": "Développer l'interface React (routage inclu) d'une plateforme de location mobilière entre particuliers' .",
+        "mission": "Développer l'interface React (routage inclu) d'une plateforme de location mobilière entre particuliers.",
         "tags": [
             "./public/react.png",
             "./public/sass.png",
