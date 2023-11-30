@@ -65,11 +65,18 @@ function displayGallery() {
             fillGallery(gallery);
         });
     }
-    
+
+function addLink(datas, location) {
+    if(datas[0].website) {
+        document.querySelector(location)
+        .innerHTML += `<a href="${datas[0].website}" target="_blank" aria-describeby="liens vers le site ${datas[0].title}">Lien vers le site</a>`
+    }
+    else return;
+}
 
 
 
-/********* Modal's functions *********/
+    /********* Modal's functions *********/
 
 function openModal(e) {
     e.preventDefault();
@@ -117,7 +124,7 @@ function fillModal(article) {
             </div>
             <div class="modal-wrapper_links">
                 <a href="${article[0].github}" target="_blank"> Lien github </a>
-                <a href="${article[0].website}" target="_blank">Lien vers le site</a>
+                
             </div>
         </div>
     </div>
@@ -133,6 +140,8 @@ function fillModal(article) {
                 <img src="${tags[i]}" alt="${name}">    
             `;
     };
+
+    addLink(article, ".modal-wrapper_links");
     
     document.querySelector(".modal-wrapper_header_icon")
     .addEventListener("click", (closeModal));
