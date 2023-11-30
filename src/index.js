@@ -107,7 +107,7 @@ function fillModal(article) {
                 <div class="modal-wrapper_info_content">
                     <div class="modal-wrapper_info_mission">
                         <h3 class="modal-wrapper_info_mission_title">Mission</h3>
-                        <p class="modal-wrapper_info_div-price_price">${article[0].mission}</p>
+                        <p>${article[0].mission}</p>
                     </div>
                     <div class="modal-wrapper_info_details">
                         <h3 class="modal-wrapper_info_details_title">Technologies</h3>    

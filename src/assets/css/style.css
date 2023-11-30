@@ -162,10 +162,11 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 250px;
+  width: 435px;
   background-color: #D6F1DF;
   padding: 2rem;
   border-radius: 2rem;
+  
 }
 
 .skills_box {
@@ -175,7 +176,9 @@ h1 {
 .skills_first {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .gallery {
@@ -318,7 +321,7 @@ h1 {
   display: flex;
   flex-direction: column;
   margin-top: 1.5rem;
-  gap: 4rem;
+  gap: 2.5rem;
 }
 
 .modal-wrapper_info_mission, .modal-wrapper_info_details {
@@ -333,11 +336,11 @@ h1 {
   justify-content: center;
   gap: 1rem;
   margin-top: 1rem;
+  flex-wrap: wrap;
 }
 
 .modal-wrapper_info_tags img {
   height: 50px;
-  width: 50px;
 }
 
 .modal-wrapper_links {
@@ -451,14 +454,6 @@ h1 {
   h1 {
     font-size: x-large;
   }
-  .skills {
-    border-radius: 0;
-    height: fit-content;
-  }
-  .skills_first {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
   .gallery_card {
     height: 300px;
     width: 300px;
@@ -474,5 +469,25 @@ h1 {
     flex-direction: column;
     margin-top: 2rem;
     gap: 1rem;
+  }
+  .modal-wrapper_info_content {
+    gap: 2rem;
+  }
+  .modal-wrapper_info_mission, .modal-wrapper_info_details {
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 451px) {
+  .skills {
+    border-radius: 0;
+    height: fit-content;
+  }
+  .modal {
+    width: 100%;
+    left: auto;
+  }
+  .modal-wrapper_left {
+    padding: 0.5rem;
   }
 }

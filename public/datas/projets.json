@@ -3,9 +3,10 @@
         "id": "1",
         "title": "Kasa",
         "cover": "./src/assets/images/kasa.png",
-        "mission": "Développer l'interface d'un site de recherche d'hébergments et d'activités par ville en s'appuyant sur les maquettes du designer.",
+        "mission": "Développer l'interface React (routage inclu) d'une plateforme de location mobilière entre particuliers' .",
         "tags": [
             "./public/react.png",
+            "./public/sass.png",
             "./public/html.png",
             "./public/css.png",
             "./public/figma.png"
@@ -17,7 +18,7 @@
         "id": "2",
         "title": "Portfolio - Sophie Bluel",
         "cover": "./src/assets/images/sophiebluel.png",
-        "mission": "Développer l'interface d'un site de recherche d'hébergments et d'activités par ville en s'appuyant sur les maquettes du designer.",
+        "mission": "Transformer un portfolio statique one-page en un site dynamique avec page de connexion, gallerrie dynamique et modale d'ajout/suppression de projet.",
         "tags": [
             "./public/js.png",
             "./public/html.png",
@@ -31,9 +32,10 @@
         "id": "3",
         "title": "Argent Bank",
         "cover": "./src/assets/images/argentbank.png",
-        "mission": "Développer l'interface d'un site de recherche d'hébergments et d'activités par ville en s'appuyant sur les maquettes du designer.",
+        "mission": "Transformer un site statique en application React et ajouter Redux pour une gestion globale de l'état",
         "tags": [
             "./public/react.png",
+            "./public/redux.png",
             "./public/html.png",
             "./public/css.png",
             "./public/figma.png"
@@ -45,10 +47,11 @@
         "id": "4",
         "title": "Ohmyfood",
         "cover": "./src/assets/images/ohmyfood.png",
-        "mission": "Développer l'interface d'un site de recherche d'hébergments et d'activités par ville en s'appuyant sur les maquettes du designer.",
+        "mission": "Développer un site en mobile first répertiorants des restaurants avec leurs menus et permettant aux clients de réserver en commandant directement son menu.",
         "tags": [
             "./public/html.png",
             "./public/css.png",
+            "./public/sass.png",
             "./public/figma.png"
             ],
         "github": "https://github.com/YohanMuze/ProjetOC-P4",
