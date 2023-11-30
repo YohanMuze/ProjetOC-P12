@@ -46,7 +46,6 @@ function fillGallery(arr) {
                 </figure>`;
     }
     let modalLink = document.querySelectorAll(".modal-link");
-    console.log(modalLink);
     modalLink.forEach(a => {
         a.addEventListener("click", (e) => {
             openModal(e);
@@ -107,7 +106,7 @@ function fillModal(article) {
         </div>
         <div class="modal-wrapper_right">
             <div class="modal-wrapper_header">
-                <img class="modal-wrapper_header_icon" src="./public/close_cross.png">
+                <img tabindex="0" class="modal-wrapper_header_icon" src="./public/close_cross.png">
             </div>
             <div class="modal-wrapper_info">
                 <h2 class="modal-wrapper_info_h">${article[0].title}</h2>
@@ -145,6 +144,12 @@ function fillModal(article) {
     
     document.querySelector(".modal-wrapper_header_icon")
     .addEventListener("click", (closeModal));
+    document.querySelector(".modal-wrapper_header_icon")
+    .addEventListener("keyup", (e) => {
+        if (e.key === "Enter") {
+            closeModal();
+        }
+    });
 }
 
 displayGallery();
