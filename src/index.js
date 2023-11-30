@@ -95,7 +95,7 @@ function fillModal(article) {
         <div class="modal-wrapper_left">
             <figure class="modal-wrapper_fig">
                 <img class="modal-wrapper_fig_img" src="${article[0].cover}">
-                <figcaption class="modal-wrapper_fig_caption">${article[0].title}</figcaption>
+                <figcaption class="modal-wrapper_fig_caption">Capture d'écran du site ${article[0].title}</figcaption>
             </figure>
         </div>
         <div class="modal-wrapper_right">

@@ -15,19 +15,20 @@
 <body id="accueil">
     <header class="header">
         <div class="header_logo">
-            <a href="#accueil"><img src="./public/logo.png"></a>
+            <a href="#accueil"><img src="./public/logo.png" alt="Yohan Muzé, web developer"></a>
         </div>
         <nav class="nav">
             <ul class="nav_ul">
-                <li><a href="#skills">Compétences</a></li>
-                <li><a href="#projets">Projets</a></li>
-                <li><a href="./src/assets/Yohan Muzé - CV.pdf" target="_blank">Mon CV</a></li>
+                <li><a href="#skills" aria-describedby="lien vers la rubrique : mes compétences">Compétences</a></li>
+                <li><a href="#projets" aria-describedby="lien vers la rubrique : mes projets">Projets</a></li>
+                <li><a href="./src/assets/Yohan Muzé - CV.pdf" target="_blank"
+                        aria-describedby="lien vers mon CV au format pdf">Mon CV</a></li>
             </ul>
         </nav>
     </header>
     <main class="hero">
         <div class="hero_layout">
-            <img src="src/assets/images/hero-content.png">
+            <img src="src/assets/images/hero-content.png" aria-hidden="true">
             <div class="hero_content">
                 <h1>Développeur Web Front-end passionné de programmation qui s'intéresse particulièrement au Green IT et
                     à l'accéssibilité.</h1>
@@ -35,24 +36,27 @@
             </div>
         </div>
         <div class="hero_pic">
-            <img src="src/assets/images/developer.png">
+            <img src="src/assets/images/developer.png"
+                alt="dessin d'un personnage avec une capuche devant son ordinateur">
             <figcaption>(presque) moi</figcaption>
             <div class="btn-icons">
                 <a href="https://www.linkedin.com/in/yohan-m-7521442a1" target="_blank"><img
-                        src="public/LinkedIn_Logo.svg.png"></a>
+                        src="public/LinkedIn_Logo.svg.png" alt="lien vers ma page Linkedin"></a>
             </div>
-            <div class="hero_content_links" id="skills">
+            <div class="hero_content_links">
                 <div class="btn-icons">
-                    <a href="https://github.com/YohanMuze" target="_blank"><img src="public/github.png"></a>
+                    <a href="https://github.com/YohanMuze" target="_blank"><img src="public/github.png"
+                            alt="lien vers mon github"></a>
                 </div>
                 <div class="btn-icons">
-                    <a href="mailto:yohan.m.dev@gmail.com" target="_blank"><img src="public/gmail.png"></a>
+                    <a href="mailto:yohan.m.dev@gmail.com" target="_blank"><img src="public/gmail.png"
+                            alt="lien vers mon adresse gmail"></a>
                 </div>
             </div>
 
         </div>
     </main>
-    <aside class="skills_wrapper">
+    <aside class="skills_wrapper" id="skills">
         <article class="skills">
             <h2>Mes compétences</h2>
             <div class="skills_box">
@@ -64,13 +68,13 @@
                     <img src="public/css.png" alt="logo du CSS3">
                     <img src="public/sass.png" alt="logo de Sass">
                 </div>
-                <div class="skills_collapse" id="projets">
+                <div class="skills_collapse">
                 </div>
             </div>
         </article>
     </aside>
     <aside>
-        <article class="gallery">
+        <article class="gallery" id="projets">
             <h2>Certains de mes projets</h2>
             <dialog id="modal-article" class="modal">
                 <div class="modal-wrapper"></div>
@@ -85,17 +89,20 @@
         <div class="footer_links">
             <div class="btn-icons">
                 <a href="https://www.linkedin.com/in/yohan-m-7521442a1" target="_blank"><img
-                        src="public/LinkedIn_Logo.svg.png"></a>
+                        src="public/LinkedIn_Logo.svg.png" alt="lien vers ma page Linkedin"></a>
             </div>
             <div class="btn-icons">
-                <a href="https://github.com/YohanMuze" target="_blank"><img src="public/github.png"></a>
+                <a href="https://github.com/YohanMuze" target="_blank"><img src="public/github.png"
+                        alt="lien vers mon github"></a>
             </div>
             <div class="btn-icons">
-                <a href="mailto:yohan.m.dev@gmail.com" target="_blank"><img src="public/gmail.png"></a>
+                <a href="mailto:yohan.m.dev@gmail.com" target="_blank"><img src="public/gmail.png"
+                        alt="lien vers mon github"></a>
             </div>
         </div>
         <div class="footer_arrow-up">
-            <a href="#accueil"><img src="./public/icons-double-up.png"></a>
+            <a href="#accueil"><img src="./public/icons-double-up.png"
+                    alt="bouton pour remonter en haut de la page"></a>
         </div>
     </footer>
 </body>
