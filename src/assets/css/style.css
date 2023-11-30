@@ -25,6 +25,10 @@ a, li, button, p {
   font-size: larger;
 }
 
+h2 {
+  font-size: xx-large;
+}
+
 img {
   max-height: 100%;
 }
@@ -463,6 +467,9 @@ h1, .hero_content p {
     width: 100%;
   }
   h1 {
+    font-size: x-large;
+  }
+  h2 {
     font-size: x-large;
   }
   .gallery_card {
